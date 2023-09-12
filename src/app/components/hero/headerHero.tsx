@@ -16,7 +16,7 @@ export default function HeaderHero(){
                                 <p className="max-w-lg mx-auto text-lg text-gray-300 mb-10">Experience the ease and security of verifying your identity with our NIN Secure Identity Gateway.</p>
                                 <a className="group relative flex xs:inline-flex items-center justify-center px-5 h-12 font-bold rounded-lg transition-all duration-300" href="#" style={{ backgroundColor:"#A3E33A" }}>
                                     <div className="absolute top-0 left-0 w-full h-full rounded-lg animate-pulse group-hover:ring-0 transition duration-300" ></div>
-                                    <span className="mr-3 text-dark">Request Access</span>
+                                    <span className="mr-3 text-dark">Get Started</span>
                                     <span className="transform group-hover:translate-x-1 transition duration-300">
                                         <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 1L6 6L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>

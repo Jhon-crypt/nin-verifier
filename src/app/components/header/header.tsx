@@ -34,17 +34,14 @@ export default function Header() {
                                         inline
                                         label="For who"
                                     >
-                                        <p className='ms-3 mb-3'>
-                                            Dashboard
+                                        <p className='ms-3 mb-3 mr-3'>
+                                            Individuals 
                                         </p>
-                                        <p className='ms-3 mb-3'>
-                                            Settings
+                                        <p className='ms-3 mb-3 mr-3'>
+                                            Businesses
                                         </p>
-                                        <p className='ms-3 mb-3'>
-                                            Earnings
-                                        </p>
-                                        <p className='ms-3'>
-                                            Sign out
+                                        <p className='ms-3 mb-3 mr-3'>
+                                            Developers
                                         </p>
                                     </Dropdown></span>
                                 </div>
