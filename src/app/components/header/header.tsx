@@ -1,6 +1,7 @@
 'use client'
 import { FaIdCard } from 'react-icons/fa';
 import { Dropdown } from 'flowbite-react';
+import Link from 'next/link';
 
 export default function Header() {
 
@@ -46,8 +47,8 @@ export default function Header() {
                                     </Dropdown></span>
                                 </div>
                             </a>
-                            <a className="inline-block text-white hover:text-teal-400 mr-10" href="#">Use cases</a>
-                            <a className="inline-block text-white hover:text-teal-400" href="#">Contact</a>
+                            <Link className="inline-block text-white hover:text-teal-400 mr-10" href="/useCases">Use cases</Link>
+                            <Link className="inline-block text-white hover:text-teal-400" href="/contact">Contact</Link>
                         </div>
                         <div className="hidden lg:block ml-auto">
                             <a className="group inline-block justify-center p-1 text-center text-sm text-white font-semibold rounded-lg" href="#">
